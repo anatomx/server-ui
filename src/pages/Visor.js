@@ -6,15 +6,16 @@ import ImagesContainer from './ImagesContainer'
 
 const Visor = props => {
 
-    const [preview, setPreview] = useState("/images/head.jpg")
+    const [preview, setPreview] = useState("https://picsum.photos/seed/6/60")
 
     return (
         <Container>
             <ImagePreview src={preview} />
             <ImagesContainer>
-                <Image src="/images/head.jpg" onClick={() => setPreview('/images/head.jpg')} />
-                <Image src="/images/pelvis.jpg" onClick={() => setPreview('/images/pelvis.jpg')} />
-                <Image src="/images/knee.jpg" onClick={() => setPreview('/images/knee.jpg')} />
+                <Image src="https://picsum.photos/seed/6/600" onClick={() => setPreview('https://picsum.photos/seed/6/600')} />
+                <Image src="https://picsum.photos/seed/7/600" onClick={() => setPreview('https://picsum.photos/seed/7/600')} />
+                <Image src="https://picsum.photos/seed/8/600" onClick={() => setPreview('https://picsum.photos/seed/8/600')} />
+                <Image src="https://picsum.photos/seed/9/600" onClick={() => setPreview('https://picsum.photos/seed/9/600')} />
             </ImagesContainer>
         </Container>
     )

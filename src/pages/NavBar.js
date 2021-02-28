@@ -8,8 +8,8 @@ const NavBar = () => {
     <Navbar bg="dark" variant="dark" >
       <Navbar.Brand href="#home">AnatomX</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/visor">Visor</Nav.Link>
+        <Nav.Link href="#sds">Home</Nav.Link>
+        <Nav.Link href="#sdc">Visor</Nav.Link>
       </Nav>
       <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
