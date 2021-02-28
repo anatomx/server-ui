@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Uploader from './pages/Uploader'
 import Visor from './pages/Visor'
