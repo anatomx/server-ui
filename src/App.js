@@ -14,19 +14,20 @@ import {
 function App() {
   return (
     <Container>
-      <Router>
-        <div>
-          <NavBar />
-          <Switch>
-            <Route exact path="/">
-              <Uploader />
-            </Route>
-            <Route path="/visor">
-              <Visor />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
+      <NavBar />
+      <Uploader />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <Visor />
+
     </Container>
   );
 }
